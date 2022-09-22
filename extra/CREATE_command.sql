@@ -9,3 +9,5 @@ CREATE TABLE task(
   `description` TEXT,
   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+DESCRIBE task;
