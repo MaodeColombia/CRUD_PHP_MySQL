@@ -6,10 +6,11 @@
 * - mysqli_connect abre una nueva conexión al servidor de MySQL
 * - https://www.php.net/manual/en/mysqli.construct.php
 *
-* YA ESTE ES EL OBJETO QUE GENERA LA CONEXIÓN
+* ya este es el objeto que genera la conexión
 */ 
 
-mysqli_connect(
+/* Se asigna el objeto a una variable */
+$conn = mysqli_connect(
   'localhost',
   'root',
   '',
