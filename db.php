@@ -16,4 +16,14 @@ $conn = mysqli_connect(
   '',
   'php_mysql_crud'
 );
+
+/*mysqli_connect devuelve un objeto que representa la conexión al servidor MySQL y en caso que no se genre la conexión devuelve FALSO*/
+
+//isset :Determina si una variable está definida y es diferente de NULL 
+
+/* entonces se valida si se establece la conexión */
+
+if (isset($conn)){
+    echo 'DB is conneted';
+}
 ?>
