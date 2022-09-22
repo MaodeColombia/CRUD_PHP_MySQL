@@ -15,3 +15,12 @@
 
     </head>
     <body>
+        <!-- Normalmente la navegación <nav> se hace en un archivo aparte, en este ejemplo se hace aqui -->
+        <!-- para saber más de <nav> https://www.w3schools.com/tags/tag_nav.asp, ahora dentro de la etiqueta <nav> se usan clases de bootstrap -->
+        <nav class = "navbar navbar-dark bg-dark">
+            <!-- se usa una clase container para que el contenido de la navegación esté centrado -->
+            <div class="container">
+                <!-- una eqiqueta <a> que sirve de logotipo y una clase de bootstrap para que se estilice, el href hace que retorne a inicio-->
+                <a href="index.php" class="navbar-brand">PHP MySQL CRUD, go Home</a>     
+            </div>
+        </nav>
