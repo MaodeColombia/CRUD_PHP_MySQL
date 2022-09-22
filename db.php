@@ -26,4 +26,9 @@ $conn = mysqli_connect(
 if (isset($conn)){
     echo 'DB is conneted';
 }
+
+/* se valida en 
+    http://localhost/CRUD_PHP_MySQL/db.php
+    
+    https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220922013520.png*/
 ?>
