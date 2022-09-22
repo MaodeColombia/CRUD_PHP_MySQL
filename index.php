@@ -1,5 +1,4 @@
 <?php
-// index.php quien arranca toda la aplicación y se prueba que todo este operando correctamente
-echo "Hello world!"
-// Importante aclarar que el proyecto debe estar en htdocs
+//se requiere la conexión a penas inicie la aplicación
+include ("db.php")
 ?>
