@@ -17,3 +17,5 @@
   - **delete_task.php**: se almacenará el código para la tarea de borrar
   - **edit_task.php**: se almacenará el código para la tarea de editar 
   - CARPETAS **include** y **database**
+
+>Actualmente se está trabajando en http://localhost/CRUD_PHP_MySQL/ ([ver](extra/image/20220921230732.png)) y con el administrador de Bases de Datos de MySQL ([ver](extra/image/20220921230450.png)) http://localhost/phpmyadmin/
