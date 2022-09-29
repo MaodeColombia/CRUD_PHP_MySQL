@@ -21,7 +21,18 @@ include ("db.php")
                         https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929093058_cardcard-body.jpg
                         https://getbootstrap.com/docs/5.0/components/card/ -->
                     <div class="card card-body">
-                        
+                        <!-- se incluye un formulario con tres areas, para titulo, para inscripción y para guardar la tarea; "action" pendiente -->
+                        <form action="">
+                            <!-- https://getbootstrap.com/docs/5.0/forms/overview/
+                                https://getbootstrap.com/docs/4.0/components/forms/
+                                https://www.w3schools.com/bootstrap5/bootstrap_forms.php -->
+                                <div class="form-group">
+
+                                </div>
+                                <div class="form-group">
+
+                                </div>
+                        </form>
                     </div>
                 </div>
                 <!-- https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929090536__col-md-8.jpg -->
