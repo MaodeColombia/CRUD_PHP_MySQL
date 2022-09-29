@@ -19,6 +19,10 @@ include ("db.php")
                 <div class="col-md-4">
                     
                 </div>
+                <!-- https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929090536__col-md-8.jpg -->
+                <div class="col-md-8">
+
+                </div>
             </div>
         </div>
     </div>
