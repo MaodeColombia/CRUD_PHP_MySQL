@@ -3,7 +3,7 @@
 include ("db.php")
 ?>
 
-<?php include("include/header.php")?>
+<?php include("includes/header.php")?>
         
         <h1>Hello World</h1>
         <!-- Recargando la pagina
@@ -13,4 +13,4 @@ include ("db.php")
         se observa que continua operativa la página web
      -->
         
-<?php include("include/footer.php")?>
+<?php include("includes/footer.php")?>
