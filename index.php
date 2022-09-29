@@ -17,7 +17,12 @@ include ("db.php")
                 https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929084148_col-md-4.jpg -->
             <div class="row">
                 <div class="col-md-4">
-                    
+                    <!-- https://www.w3schools.com/bootstrap5/bootstrap_cards.php
+                        https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929093058_cardcard-body.jpg
+                        https://getbootstrap.com/docs/5.0/components/card/ -->
+                    <div class="card card-body">
+                        
+                    </div>
                 </div>
                 <!-- https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929090536__col-md-8.jpg -->
                 <div class="col-md-8">
