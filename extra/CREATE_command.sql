@@ -10,4 +10,16 @@ CREATE TABLE task(
   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-DESCRIBE task;
+/*  El anterior query genera la siguiente tabla 
+    +-------------+--------------+------+-----+---------------------+----------------+
+    | Field       | Type         | Null | Key | Default             | Extra          |
+    +-------------+--------------+------+-----+---------------------+----------------+
+    | id          | int(11)      | NO   | PRI | NULL                | auto_increment |
+    | title       | varchar(255) | NO   |     | NULL                |                |
+    | description | text         | YES  |     | NULL                |                |
+    | created_at  | timestamp    | NO   |     | current_timestamp() |                |
+    +-------------+--------------+------+-----+---------------------+----------------+ 
+
+    para ver en linea de comando la tabla `task` usar el comando 
+    DESCRIBE task;
+*/
