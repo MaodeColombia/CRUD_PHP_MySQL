@@ -5,12 +5,6 @@ include ("db.php")
 
 <?php include("includes/header.php")?>
         
-        <h1>Hello World</h1>
-        <!-- Recargando la pagina
-        https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220922023030.png
-        y viendo en código fuente
-        https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220922022817.png
-        se observa que continua operativa la página web
-     -->
+        <!-- Seccion donde se tendrá un formulario y una tabla  -->
         
 <?php include("includes/footer.php")?>
