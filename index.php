@@ -9,7 +9,7 @@ include ("db.php")
     <div>
         <!-- contenedor de Bootstrap que permite centrar el contenido 
         https://sutilweb.com/lenguajes/bootstrap/bootstrap-4/contenedores-en-bootstrap/ 
-        https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929082755_class='containerp-4'.jpg-->
+        https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929082755_class=containerp-4.jpg -->
         <div class="container p-4">
             <!-- https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
                 https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
@@ -21,17 +21,17 @@ include ("db.php")
                         https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929093058_cardcard-body.jpg
                         https://getbootstrap.com/docs/5.0/components/card/ -->
                     <div class="card card-body">
-                        <!-- se incluye un formulario con tres areas, para titulo, para inscripción y para guardar la tarea; "action" pendiente -->
+                        <!-- se incluye un formulario con tres areas, para titulo, para inscripción y para guardar la tarea, todo esto con la class form-group; "action" pendiente -->
                         <form action="">
                             <!-- https://getbootstrap.com/docs/5.0/forms/overview/
                                 https://getbootstrap.com/docs/4.0/components/forms/
                                 https://www.w3schools.com/bootstrap5/bootstrap_forms.php -->
-                                <div class="form-group">
-
-                                </div>
-                                <div class="form-group">
-
-                                </div>
+                            <div class="form-group">
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="" id="" cols="" rows=""></textarea>
+                            </div>
                         </form>
                     </div>
                 </div>
