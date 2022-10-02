@@ -22,7 +22,8 @@ include ("db.php")
                         https://getbootstrap.com/docs/5.0/components/card/ -->
                     <div class="card card-body">
                         <!-- se incluye un formulario con tres areas, para titulo, para inscripción y para guardar la tarea, todo esto con la class form-group; "action" pendiente -->
-                        <form action="">
+                        <!-- el formulario se enviará a save_task.php por el método POST (no muestra info en la URL) https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002155358.png -->
+                        <form action="save_task.php" method="POST">
                             <!-- https://getbootstrap.com/docs/5.0/forms/overview/
                                 https://getbootstrap.com/docs/4.0/components/forms/
                                 https://www.w3schools.com/bootstrap5/bootstrap_forms.php -->
