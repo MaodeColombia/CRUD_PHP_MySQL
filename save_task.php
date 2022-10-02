@@ -11,6 +11,10 @@ https://www.php.net/manual/es/function.isset.php -->
         $title = $_POST['title'];
         $description = $_POST['description'];
         
-        $query="INSERT INTO task(`title`, `description`) VALUES ('$title', '$description')";
+        $query = "INSERT INTO task(`title`, `description`) VALUES ('$title', '$description')";
+        /* con la conexión ('db.php') y con la sentencia ('$query') ya se puede ejecutar el query en la DB.
+        mysqli_query — Realiza un query a la base de datos
+        https://www.php.net/manual/en/mysqli.query.php */
+        mysqli_query($conn, $query); 
     }
 ?>
