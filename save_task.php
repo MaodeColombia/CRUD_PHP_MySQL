@@ -11,6 +11,6 @@ https://www.php.net/manual/es/function.isset.php -->
         $title = $_POST['title'];
         $description = $_POST['description'];
         
-        //$query 
+        $query="INSERT INTO task(`title`, `description`) VALUES ('$title', '$description')";
     }
 ?>
