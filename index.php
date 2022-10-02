@@ -36,6 +36,11 @@ include ("db.php")
                                 https://www.w3schools.com/tags/att_input_type_submit.asp 
                                 https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002123720.png -->
                             <input type="submit">
+                            <!-- este  input es netamente HTML, pero se podría cambiar por button Bootstrap
+                                https://getbootstrap.com/docs/4.6/components/forms/ 
+                                https://getbootstrap.com/docs/4.6/components/buttons/
+                                https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002123817.png -->
+                                <button type="submit" class="btn btn-primary">Primary</button>
 
                         </form>
                     </div>
