@@ -15,6 +15,17 @@ https://www.php.net/manual/es/function.isset.php -->
         /* con la conexión ('db.php') y con la sentencia ('$query') ya se puede ejecutar el query en la DB.
         mysqli_query — Realiza un query a la base de datos
         https://www.php.net/manual/en/mysqli.query.php */
-        mysqli_query($conn, $query); 
+
+        /*Si la sentencia se ejecutó se devuelve un objeto, el cual se puede comprobar así
+        https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002185155.png */
+        $result = mysqli_query($conn, $query); 
+        if (!isset($result)) {
+            echo "<br>";
+            //exit() — https://www.php.net/manual/es/function.exit.php
+            exit("Query failed"); //Falla del query, no se almacenó la información
+        } else {
+            echo "<br>";
+            exit("Saved"); //Información guardada en la DB
+        }
     }
 ?>
