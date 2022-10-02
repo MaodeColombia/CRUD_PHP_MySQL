@@ -32,6 +32,9 @@ include ("db.php")
                             <div class="form-group">
                                 <textarea name="" id="" cols="" rows=""></textarea>
                             </div>
+                            <!-- botón de tipo "submit" para que cuando se haga clic ejecute el formulario 
+                                https://www.w3schools.com/tags/att_input_type_submit.asp -->
+                            <input type="submit">
                         </form>
                     </div>
                 </div>
