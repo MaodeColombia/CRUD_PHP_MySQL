@@ -33,8 +33,10 @@ include ("db.php")
                                 <textarea name="" id="" cols="" rows=""></textarea>
                             </div>
                             <!-- botón de tipo "submit" para que cuando se haga clic ejecute el formulario 
-                                https://www.w3schools.com/tags/att_input_type_submit.asp -->
+                                https://www.w3schools.com/tags/att_input_type_submit.asp 
+                                https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002123720.png -->
                             <input type="submit">
+
                         </form>
                     </div>
                 </div>
