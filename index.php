@@ -34,6 +34,7 @@ include ("db.php")
                                     autofocus para que cuando incie la pagina el cursor se ubique en este input -->
                                 <input type="text" name="title" class="form-control" placeholder="Task title" autofocus>
                             </div>
+                            <br>
                             <div class="form-group">
                                 <!-- textarea https://www.w3schools.com/tags/tag_textarea.asp
                                     name="description"  El atributo de nombre es necesario para hacer referencia a los datos del formulario después de enviar el formulario, https://www.w3schools.com/tags/tag_textarea.asp
@@ -42,6 +43,7 @@ include ("db.php")
                                      -->
                                 <textarea name="description" rows="2" class="form-control" placeholder="Task description"></textarea>
                             </div>
+                            <br>
                             <!-- botón de tipo "submit" para que cuando se haga clic ejecute el formulario 
                                 https://www.w3schools.com/tags/att_input_type_submit.asp
                                 https://getbootstrap.com/docs/4.0/components/buttons/ 

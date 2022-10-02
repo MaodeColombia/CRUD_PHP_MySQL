@@ -19,3 +19,5 @@
   - CARPETAS **include** y **database**
 
 >Actualmente se está trabajando en http://localhost/CRUD_PHP_MySQL/ ([ver](extra/image/20220921230732.png)) y con el administrador de Bases de Datos de MySQL ([ver](extra/image/20220921230450.png)) http://localhost/phpmyadmin/
+
+>IMPORTANTE: La versión de Bootstrap que se maneja en este proyecto es  v4.6
