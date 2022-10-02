@@ -24,8 +24,19 @@ $conn = mysqli_connect(
 /* entonces se valida si se establece la conexión */
 
 if (isset($conn)){
-    echo 'DB is conneted';
-}
+    echo "<br>";
+    //https://www.php.net/manual/es/function.mysqli-connect.php
+    echo "DB is conneted".PHP_EOL;
+    echo "<br>";
+    echo "host information: " . mysqli_get_host_info($conn) . PHP_EOL;
+    } 
+    else { 
+          echo "Error: No conexion to MySQL." . PHP_EOL;
+          echo "<br>";
+          echo "errno info depuration: " . mysqli_connect_errno() . PHP_EOL;
+          echo "<br>";
+          echo "error info depuration: " . mysqli_connect_error() . PHP_EOL;
+    }
 
 /* se valida en 
     http://localhost/CRUD_PHP_MySQL/db.php
