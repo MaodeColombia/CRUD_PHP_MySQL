@@ -24,8 +24,13 @@ https://www.php.net/manual/es/function.isset.php -->
             //exit() — https://www.php.net/manual/es/function.exit.php
             exit("Query failed"); //Falla del query, no se almacenó la información
         } else {
-            echo "<br>";
-            exit("Saved"); //Información guardada en la DB
+            /* ya en este punto no se debe pensar el funcionamiento propio de la página por lo que en vez de mostrar un "saved" se redirecciona al "formulario"  
+            header() es usado para enviar encabezados HTTP sin formato
+            https://www.php.net/manual/en/function.header.php 
+            https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002191307.png */
+            header("Location:index.php");
+            /* el exit asegura que el código que continue este archivo no se ejecute.*/
+            exit;
         }
     }
 ?>
