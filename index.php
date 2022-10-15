@@ -1,4 +1,7 @@
 <?php
+/* Ahora se pretende poner un Mensaje de "registro exitoso" en la página del formulario, asi
+https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002194215.png */
+
 //se requiere la conexión a penas inicie la aplicación
 include ("db.php")
 ?>
