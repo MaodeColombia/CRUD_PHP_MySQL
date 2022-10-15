@@ -1,4 +1,12 @@
 <?php
+/*para esto se usa session_start(), función que crea una sesión o reanuda la actual basada en un identificador de sesión pasado mediante una petición GET o POST, o pasado mediante una cookie.
+https://www.php.net/manual/es/function.session-start.php
+
+en otras palabras se guarda datos de la sesión, permite conocer inforamación de la navegación entre una y otra página 
+https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221014211835_1.png */
+session_start();
+
+
 // LA CONEXIÓN A SQL
 
 /* 
