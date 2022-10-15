@@ -27,7 +27,10 @@ https://www.php.net/manual/es/function.isset.php -->
             /* ya en este punto no se debe pensar el funcionamiento propio de la página por lo que en vez de mostrar un "saved" se redirecciona al "formulario"  
             header() es usado para enviar encabezados HTTP sin formato
             https://www.php.net/manual/en/function.header.php 
-            https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002191307.png */
+            https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002191307.png 
+            
+            dicho en otras palabras, esta función es usada para cambiar de una "pagina a otra", y contextualizandolo, en esta parte del código se está ejecutando /save_task.php y lo que se quiere con "header" es que cambie a /index.php
+            https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221014183055.png */
             header("Location:index.php");
             /* el exit asegura que el código que continue este archivo no se ejecute.*/
             exit;
