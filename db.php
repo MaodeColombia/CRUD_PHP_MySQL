@@ -3,7 +3,11 @@
 https://www.php.net/manual/es/function.session-start.php
 
 en otras palabras se guarda datos de la sesión, permite conocer inforamación de la navegación entre una y otra página 
-https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221014211835_1.png */
+https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221014211835_1.png 
+
+Los mensajes que se guardarán con esta función (para intercambiar información entre páginas web) serán almacenados en el servidor 
+https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221014211835_2.png */
+
 session_start();
 
 
