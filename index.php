@@ -25,12 +25,16 @@ include ("db.php")
                     https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221015220656.png 
                     
                     Lo primero es validar si los datos de "session" están disponibles
-                    https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221015225636.png -->
+                    https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221015225636.png 
+                
+                    Lo segundo es mostrar "Task Saved Successfully" haciendo uso de Boostrap
+                    https://getbootstrap.com/docs/5.2/components/alerts/#dismissing -->
                     <?php
-                        if (isset($_SESSION['message'])) {
-                           echo $_SESSION['message']."<br/>"."<h1>Aquí estoy</h1>";
-                        }
+                        if (isset($_SESSION['message'])) { ?>
+                        <!-- NOTA: con el anterior "?>" y el "< ? php" siguiente se hace que el if opere dentro del contexto de PHP solamante y aquí en esta área se pueda usar HTML (HTML que se copiará directamente de Bootsrap) -->
+                    <?php }
                     ?>
+                    
                     <!--https://www.w3schools.com/bootstrap5/bootstrap_cards.php
                         https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929093058_cardcard-body.jpg
                         https://getbootstrap.com/docs/5.0/components/card/ -->
