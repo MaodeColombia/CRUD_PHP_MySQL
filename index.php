@@ -20,7 +20,13 @@ include ("db.php")
                 https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929084148_col-md-4.jpg -->
             <div class="row">
                 <div class="col-md-4">  
-                    <!-- https://www.w3schools.com/bootstrap5/bootstrap_cards.php
+                    <!--identificando donde se ubicaría el aviso "registro exitoso"-"Task Saved Successfully" como se propuso (ver el commit
+                    https://github.com/MaodeColombia/CRUD_PHP_MySQL/commit/6e13a30a211909a964462ea96977c6761e4ecbb2 )
+                    https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221015220656.png  -->
+                    <?php
+                        
+                    ?>
+                    <!--https://www.w3schools.com/bootstrap5/bootstrap_cards.php
                         https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929093058_cardcard-body.jpg
                         https://getbootstrap.com/docs/5.0/components/card/ -->
                     <div class="card card-body">
