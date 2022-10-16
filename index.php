@@ -31,7 +31,16 @@ include ("db.php")
                     https://getbootstrap.com/docs/5.2/components/alerts/#dismissing -->
                     <?php
                         if (isset($_SESSION['message'])) { ?>
-                        <!-- NOTA: con el anterior "?>" y el "< ? php" siguiente se hace que el if opere dentro del contexto de PHP solamante y aquí en esta área se pueda usar HTML (HTML que se copiará directamente de Bootsrap) -->
+                        <!-- NOTA: con el anterior "?>" y el "< ? php" siguiente se hace que el if opere dentro del contexto de PHP solamante y aquí en esta área se pueda usar HTML (HTML que se copiará directamente de Bootsrap) 
+                        
+                        copiado de la página de Boostrap
+                        https://getbootstrap.com/docs/5.2/components/alerts/#dismissing 
+                        se obtendría lo siguiente
+                        https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221016001249.png -->
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
                     <?php }
                     ?>
                     
