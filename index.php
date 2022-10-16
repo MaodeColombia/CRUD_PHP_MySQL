@@ -38,7 +38,11 @@ include ("db.php")
                         se obtendría lo siguiente
                         https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221016001249.png -->
                         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                            <!-- se cambia el mensaje por el enviado desde save_task.php por intermedio de la variable $_SESSION, note que está en el contexto de PHP
+                            https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221016002115.png 
+                            tambien observe el uso de "< ? =" en stackoverflow en el siguiente link
+                            https://es.stackoverflow.com/questions/75296/para-qu%C3%A9-sirve-en-php -->
+                            <?= $_SESSION['message'] ?>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     <?php }
