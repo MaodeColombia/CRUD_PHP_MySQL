@@ -22,9 +22,14 @@ include ("db.php")
                 <div class="col-md-4">  
                     <!--identificando donde se ubicaría el aviso "registro exitoso"-"Task Saved Successfully" como se propuso (ver el commit
                     https://github.com/MaodeColombia/CRUD_PHP_MySQL/commit/6e13a30a211909a964462ea96977c6761e4ecbb2 )
-                    https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221015220656.png  -->
+                    https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221015220656.png 
+                    
+                    Lo primero es validar si los datos de "session" están disponibles
+                    https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221015225636.png -->
                     <?php
-                        
+                        if (isset($_SESSION['message'])) {
+                           echo $_SESSION['message']."<br/>"."<h1>Aquí estoy</h1>";
+                        }
                     ?>
                     <!--https://www.w3schools.com/bootstrap5/bootstrap_cards.php
                         https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20220929093058_cardcard-body.jpg
