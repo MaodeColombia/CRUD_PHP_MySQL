@@ -45,7 +45,12 @@ include ("db.php")
                             <?= $_SESSION['message'] ?>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
-                    <?php }
+                    <?php
+                        /* Retomando, lo que se pretende ahora es que este aviso que se ha trabajado no aparezca solamente cuando de /save_task.php haya hecho un registro, o sea se debe "Libera todas las variables de sesión"
+                        https://www.php.net/manual/es/function.session-unset.php 
+                        https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221016010803.png */
+                        session_unset(); 
+                        }
                     ?>
                     
                     <!--https://www.w3schools.com/bootstrap5/bootstrap_cards.php
