@@ -30,7 +30,12 @@ https://www.php.net/manual/es/function.isset.php -->
             https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221002191307.png 
             
             dicho en otras palabras, esta función es usada para cambiar de una "pagina a otra", y contextualizandolo, en esta parte del código se está ejecutando /save_task.php y lo que se quiere con "header" es que cambie a /index.php
-            https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221014183055.png */
+            https://github.com/MaodeColombia/CRUD_PHP_MySQL/blob/master/extra/image/20221014183055.png 
+            
+            entonces antes de redireccionar a "index.php" se almacena la información que se quiere intercambiar entre páginas web; la variable superglobal $_SESSION
+            https://www.php.net/manual/es/function.session-start.php */
+            $_SESSION['message'] = 'Task Saved Successfully';
+            $_SESSION['message_type'] = 'success';
             header("Location:index.php");
             /* el exit asegura que el código que continue este archivo no se ejecute.*/
             exit;
